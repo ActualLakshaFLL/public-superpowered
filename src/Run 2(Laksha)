@@ -1,0 +1,21 @@
+# M Y T A K E O N R U N T W O
+
+#I am not sure how to intialize code, therefore I will add it later
+
+movement_motors = MotorPair ('A', 'C') #idk the exact motor pairs cuz of stoopid internet
+#defining the variable movement motors to use the motor pair in movement
+
+movement_motors.set_default_speed(50)#changeable if preferred
+#setting movement.motors to a default/og speed
+
+movement_motors.move(10,'in')#changeable if needed
+#using the variable movement.motors to move ten inches forward
+
+def position_claw(setting=115, speed=10)
+#the position of the claw, we want it to go down to grab the oil truck
+#FYI I used the same measurments from the position of the sword, as both r on same side
+
+movement_motors.move(-9, 'in')
+#using the variable movement_motors to move backward, ending the run
+
+# E N D O F M Y T A K E O N R U N T W O
